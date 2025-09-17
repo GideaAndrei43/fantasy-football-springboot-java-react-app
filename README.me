@@ -1,0 +1,43 @@
+# Fantasy Football Web Application
+
+A full-stack Fantasy Football application built with **Spring Boot**, **Java**, **PostgreSQL**, and a **modern React frontend**. This project demonstrates my ability to take a CSV dataset, turn it into a relational database, and build a scalable web application from scratch.
+
+## Overview
+
+This app allows users to explore and manage fantasy football players and teams. Key features include:
+
+- Importing player data from a CSV file into **PostgreSQL**
+- Building a structured backend API with **Spring Boot** and **Java**
+- Creating a clean, responsive frontend with **React**
+- CRUD operations for players and teams
+- Seamless integration between frontend and backend
+
+## Tech Stack
+
+- **Backend:** Spring Boot, Java, Spring Data JPA, PostgreSQL  
+- **Frontend:** React, modern hooks and components  
+- **Database:** PostgreSQL (populated from CSV)  
+- **Build tools:** Maven for backend, npm for frontend  
+- **Version Control:** Git + GitHub  
+
+## Screenshots
+
+![Homepage](screenshots/homepage.png)  
+![Player Stats](screenshots/player-stats.png)
+![Team Stats](screenshots/teams.png)
+![JSON](screenshots/jason.png)  
+
+## How It Works
+
+1. **CSV to Database:** I used a CSV file with player stats to populate the PostgreSQL database, demonstrating data handling and SQL skills.  
+2. **Backend API:** Spring Boot handles all CRUD operations and exposes REST endpoints.  
+3. **Frontend:** React consumes the API, displaying player data dynamically with modern UI components.  
+4. **End-to-End:** From CSV to database to frontend, this app showcases a full-stack development workflow.
+
+## Setup Instructions
+
+1. Clone the repository  
+2. Configure database credentials in `application.properties` (this file is gitignored)  
+3. Start backend:
+   ```bash
+   ./mvnw spring-boot:run
